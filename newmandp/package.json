@@ -1,5 +1,5 @@
 {
-  "homepage": "vipin-sheoran.github.io",
+  "homepage": "https://vipin-sheoran.github.io/sheoranmovers",
   "name": "mandp",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
